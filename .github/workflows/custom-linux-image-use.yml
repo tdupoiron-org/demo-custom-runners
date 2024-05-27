@@ -1,0 +1,12 @@
+name: Custom Image Linux - Use
+
+on:
+  workflow_dispatch:
+    
+jobs:
+
+  debug:
+    runs-on: tdupoiron-custom-linux-image
+    
+    steps:
+    - run: echo test.txt
