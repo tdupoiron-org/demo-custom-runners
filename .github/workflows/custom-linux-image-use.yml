@@ -6,7 +6,7 @@ on:
 jobs:
 
   debug:
-    runs-on: tdupoiron-custom-linux-image
+    runs-on: tdupoiron-custom-image-linux
     
     steps:
     - run: echo test.txt
