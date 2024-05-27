@@ -6,7 +6,7 @@ on:
 jobs:
 
   build:
-    runs-on: tdupoiron-linux-runner
+    runs-on: ubuntu-latest
 
     snapshot:
       image-name: tdupoiron-custom-linux-image
