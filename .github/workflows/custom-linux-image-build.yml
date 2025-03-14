@@ -12,4 +12,4 @@ jobs:
       image-name: tdupoiron-custom-linux-image
 
     steps:
-    - run: echo "hello tom" > test.txt
+    - run: echo "hello afklm" > test.txt
